@@ -1,5 +1,30 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.balloon-line {
+  position: relative; /* 三角の位置を固定するために設定 */
+  width: 500px; /* 幅 */
+  margin: 0 auto 40px; /* 上 左右 下のマージン */
+  padding: 20px; /* ふきだし内の余白 */
+  background: #fff; /* 背景色 */
+  border: 5px solid black; /* 線色 */
+  border-radius: 30px; /* <-追加 */
+}
+.balloon-line::before,
+.balloon-line::after { /* 三角 */
+  content: '';
+  border: 27px solid transparent;
+  position: absolute;
+  left: 10%;
+  margin-left: -20px;
+  border-bottom: black;
+}
+.balloon-line::before { /* 線になる部分 */
+  border-top-color: black; /* 吹き出しの線の色と同じ色 */
+  bottom: -28px;
+}
+.balloon-line::after { /* 地の部分 */
+  border-top-color: #fff; /* 吹き出しの背景色と同じ色 */
+  bottom: -22px;
+}
 /* 回答はここに書いてね */

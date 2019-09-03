@@ -70,17 +70,17 @@
   clear: both;
 }
 
-.form {
+.q8__form {
   width: 700px;
   margin: 0 auto;
   padding: 20px;
   background-color: #ECF1F2;
 }
-.form-title {
+.q8__form__title {
   position: relative;
   margin-bottom: 20px;
 }
-.form-title:before {
+.q8__form__title:before {
   position: absolute;
   top: 50%;
   left: 0;
@@ -89,7 +89,7 @@
   background-color: #ccc;
   content: "";
 }
-.form-title-text {
+.q8__form__title__text {
   position: relative;
   display: inline-block;
   padding-right: 10px;
@@ -97,33 +97,33 @@
   font-size: 24px;
   font-weight: bold;
 }
-.main {
+.q8__main {
   float: left;
   width: 300px;
 }
-.main-item {
+.q8__main__items {
   margin-bottom: 20px;
 }
-.main-item > li {
+.q8__main__items > li {
   margin-top: 20px;
 }
-.main-item > li:first-child {
+.q8__main__items > li:first-child {
   margin-top: 0;
 }
-.main-item-title {
+.q8__main__items__title {
   float: left;
   width: 100px;
   line-height: 25px;
   text-align: right;
 }
-.main-item-title .is-required {
+.q8__main__items__title .is-required {
   color: #F00;
 }
-.main-item-content {
+.q8__main__items__content {
   float: right;
   width: 180px;
 }
-.input-init {
+.q8__input--init {
   padding: 0;
   background: none;
   border: none;
@@ -134,7 +134,7 @@
   -moz-appearance: none;
   appearance: none;
 }
-.input {
+.q8__input {
   width: 100%;
   padding: 5px;
   border-radius: px;
@@ -143,21 +143,21 @@
   line-height: 12px;
   box-sizing: border-box;
 }
-.input:focus {
+.q8__input:focus {
   box-shadow: 0 0 7px #00BCD4;
 }
-.radio {
+.q8__radio {
   cursor: pointer;
 }
-.radio-btn {
+.q8__radio__btn {
   display: none;
 }
-.radio-text {
+.q8__radio__text {
   position: relative;
   display: inline-block;
   padding: 3px 3px 3px 20px;
 }
-.radio-text:before {
+.q8__radio__text:before {
   position: absolute;
   top: 50%;
   left: 0;
@@ -169,7 +169,7 @@
   border-radius: 50%;
   content: '';
 }
-.radio-btn:checked + .radio-text:after {
+.q8__radio__btn:checked + .q8__radio__text:after {
   position: absolute;
   top: 50%;
   left: 4px;
@@ -181,10 +181,10 @@
   content: '';
 }
 
-.select {
+.q8__select {
   position: relative;
 }
-.select:after {
+.q8__select:after {
   display: block;
   position: absolute;
   top: 4px;
@@ -197,7 +197,7 @@
   content: "";
   pointer-events: none;
 }
-.select-body {
+.q8__select__body {
   width: 100%;
   padding: 5px;
   border-radius: 3px;
@@ -243,10 +243,10 @@
   content: '';
 }
 
-.main-bottom {
+.q8__main__bottom {
   text-align: right;
 }
-.main-bottom-btn {
+.q8__main__bottom__btn {
   padding: 0 10px;
   border-radius: 5px;
   background-color: #00BCD4;
@@ -255,15 +255,15 @@
   font-size: 16px;
   line-height: 26px;
 }
-.main-bottom-btn:active {
+.q8__main__bottom__btn:active {
   background-color: #FFF;
   color: #00BCD4;
 }
-.main-rightside {
+.q8__side {
   float: right;
   width: 380px;
 }
-.main-rightside-text {
+.q8__side__text {
   width: 100%;
   height: 203px;
   padding: 10px;
@@ -273,7 +273,7 @@
   box-sizing: border-box;
   resize: none;
 }
-.main-rightside-text:focus {
+.q8__side__text:focus {
   box-shadow: 0 0 7px #00BCD4;
 }
 

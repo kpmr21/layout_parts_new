@@ -9,7 +9,7 @@
   clear: both;
 }
 
-.q7 .q7__box {
+.q7__box {
   width: 225px;
 }
 .q7--float .q7__box {
@@ -75,11 +75,11 @@
 
 /* inline-block,marginを使った横並び */
 .q7--margin .q7__inner {
-  font-size: 0;　 /* この部分の動きが分からない */
+  font-size: 0;　 
 }
 
 .q7--margin .q7__box {
-  vertical-align: top;  /* 上を基準に揃える */
+  vertical-align: top;  
 }
 
 .is-full .q7__box{

@@ -12,40 +12,40 @@
 .q7__box {
   width: 225px;
 }
-.q7--float .q7__box {
+.float-box {
   float: left;
   margin-left: 50px;
   font-size: 16px;
   box-sizing: border-box;
 }
 
-.q7--float .q7__box:first-child {
+.float-box:first-child {
   margin-left: 0;
 }
 
 /* tableを使った横並び */
-.q7--table .q7__inner {
+.table-inner {
   display: table;
 }
-.q7--table .q7__box {
+.table-box {
   display: table-cell;
   padding-left: 50px;
   vertical-align: middle;
 }
-.q7--table .q7__box:first-child {
+.table-box:first-child {
   padding-left: 0;
 }
-.q7--table .q7__box__text {
+.table-box-text {
   font-size: 16px;
 }
 /* --tableを使った横並び-- */
 
 /* inline-blockを使った横並び */
-.q7--inlineblock .q7__inner {
+.inlineblock-inner {
   font-size: 0;
 }
 
-.q7--inlineblock .q7__box{
+.inlineblock-box {
   display: inline-block;
   vertical-align: middle;
   margin-left: 50px;
@@ -53,19 +53,19 @@
   font-size: 16px;
 }
 
-.q7--inlineblock .q7__box:first-child{
+.inlineblock-box:first-child{
   margin-left: 0;
 }
 /* --inline-blockを使った横並び --*/
 
 /* flexを使った横並び */
-.q7--flex .q7__inner{
+.flex-inner{
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.q7--flex .q7__box {
+.flex-box {
   font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
@@ -74,24 +74,21 @@
 /* --flexを使った横並び-- */
 
 /* inline-block,marginを使った横並び */
-.q7--margin .q7__inner {
+.is-full {
   font-size: 0;　 
 }
 
-.q7--margin .q7__box {
-  vertical-align: top;  
+.margin-box {
+  vertical-align: top;
+  display: inline-block;  
 }
 
-.is-full .q7__box{
-  display: inline-block;
-}
-
-.is-full .q7__box:first-child{
+.margin-box:first-child{
   width: 300px;
 }
 
 
-.is-full .q7__box:nth-child(2){
+.margin-box:nth-child(2){
   width: 100%;
   margin-left: -300px;
   padding-left: 350px;

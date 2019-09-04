@@ -41,30 +41,35 @@
   background-color: #8b7a5e;
   left:280px;
   top:280px;
+  z-index: 1;
 }
 
 .contentIn5{
   background-color: #9fd6d2;
   left:200px;
   top:360px;
+  z-index: 2;
 }
 
 .contentIn6{
   background-color: #fffee4;
   left:120px;
   top:280px;
+  z-index: 3;
 }
 
 .contentIn7{
   background-color: #deae70;
   left:40px;
   top:200px;
+  z-index: 4;
 }
 
 .contentIn8{
   background-color: #de70cf;
   left:120px;
   top:120px;
+  z-index: 5;
 }
 
 .contentIn8:after {
